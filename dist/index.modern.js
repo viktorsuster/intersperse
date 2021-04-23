@@ -1,2 +1,2 @@
-function e(e,n){return e.reduce((e,r,t,u)=>[...e,r,...t+1===u.length?[]:[n]],[])}export{e as intersperse};
+import r from"type-detect";function t(t,e){if(!Array.isArray(t))throw TypeError(`I can't work with ${r(t)}`);return t.reduce((r,t,o,i)=>[...r,t,...o+1===i.length?[]:[e]],[])}export{t as intersperse};
 //# sourceMappingURL=index.modern.js.map

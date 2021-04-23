@@ -35,5 +35,8 @@
     "eslint-plugin-prettier": "^3.4.0",
     "microbundle": "^0.13.0",
     "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "type-detect": "^4.0.8"
   }
 }

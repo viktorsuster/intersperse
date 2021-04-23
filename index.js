@@ -1,4 +1,9 @@
+import type from 'type-detect'
+
 function intersperse(arr, item) {
+  if (!Array.isArray(arr)) {
+    throw TypeError(`I can't work with ${type(arr)}`)
+  }
   const result = arr.reduce(
     (accumulator, element, index, array) => [
       ...accumulator,
