@@ -1,6 +1,6 @@
 # intersperse
 
-Inserts an item beyween array elements
+Inserts an item between array elements
 
 ## Installation
 
