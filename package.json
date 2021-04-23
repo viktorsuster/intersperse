@@ -1,0 +1,38 @@
+{
+  "name": "@viktorsuster/intersperse",
+  "version": "1.0.0",
+  "description": "exercise",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorsuster/intersperse.git"
+  },
+  "author": "viktorsuster <viktor.suster.mail@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktorsuster/intersperse/issues"
+  },
+  "homepage": "https://github.com/viktorsuster/intersperse#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/preset-env": "^7.13.15",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "microbundle": "^0.13.0",
+    "prettier": "2.2.1"
+  }
+}
