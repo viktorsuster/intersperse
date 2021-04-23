@@ -7,9 +7,9 @@ function intersperse(arr, item) {
       ...(index + 1 === array.length ? [] : [item]),
     ],
     []
-  );
+  )
 
-  return result;
+  return result
 }
 
-export { intersperse };
+export { intersperse }
