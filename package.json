@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle",
     "dev": "microbundle watch",
-    "format": "prettier src"
+    "format": "prettier src",
+    "release": "np"
   },
   "files": [
     "dist"
